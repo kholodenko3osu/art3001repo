@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:10px;
+}
+
+body{
+    font-size: 2em;
+}
+
+.red-main {
+    color:red;
+}
+
+#para-second {
+    color: chartreuse;
+    font-weight: 600;
+}
+
+/* . means class, # means ID - I can't get classes to work? */
