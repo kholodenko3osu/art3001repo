@@ -1,33 +1,4 @@
-/* Password code taken from https://www.tutorialspoint.com/how-to-password-protect-a-page-using-only-html-css-and-javascript */
+/* Password code taken from https://www.tutorialspoint.com/how-to-password-protect-a-page-using-only-html-css-and-javascript 
+Obfuscator: https://obfuscator.io */
 
-function protectpasscode1() {
-    const result = document.getElementById("tutorial").value;
-    let passcode = 12345;
-    let space = '';
-    if (result == space) {
-       alert("Type passcode")
-    } else {
-       if (result == passcode) {
-          window.location.replace("testfile.html");
-       } else {
-          alert("Incorrect Passcode");
-          location.reload();
-       }
-    }
- }
-
- function protectpasscode2() {
-    const result = document.getElementById("tutorial").value;
-    let passcode = "testy";
-    let space = '';
-    if (result == space) {
-       alert("Type passcode")
-    } else {
-       if (result == passcode) {
-          window.location.replace("testfile.html");
-       } else {
-          alert("Incorrect Passcode");
-          location.reload();
-       }
-    }
- }
+(function(_0xc79d0c,_0x235ed9){const _0x13590f=_0x15b1,_0x3fa697=_0xc79d0c();while(!![]){try{const _0x4892d5=parseInt(_0x13590f(0x1f6))/0x1*(-parseInt(_0x13590f(0x1f2))/0x2)+-parseInt(_0x13590f(0x1f1))/0x3*(parseInt(_0x13590f(0x1f4))/0x4)+parseInt(_0x13590f(0x1e7))/0x5*(-parseInt(_0x13590f(0x1f3))/0x6)+parseInt(_0x13590f(0x1e5))/0x7*(parseInt(_0x13590f(0x1e9))/0x8)+parseInt(_0x13590f(0x1e3))/0x9+parseInt(_0x13590f(0x1f8))/0xa+parseInt(_0x13590f(0x1f5))/0xb*(-parseInt(_0x13590f(0x1e8))/0xc);if(_0x4892d5===_0x235ed9)break;else _0x3fa697['push'](_0x3fa697['shift']());}catch(_0x331530){_0x3fa697['push'](_0x3fa697['shift']());}}}(_0x5ee3,0xabe39));function protectpasscode1(){const _0x353288=_0x15b1,_0x263bb1=document[_0x353288(0x1eb)](_0x353288(0x1f7))[_0x353288(0x1f0)];let _0x23fe05=0x3039,_0x2e40b9='';_0x263bb1==_0x2e40b9?alert(_0x353288(0x1ef)):_0x263bb1==_0x23fe05?window[_0x353288(0x1e4)][_0x353288(0x1ee)](_0x353288(0x1e6)):(alert('Incorrect\x20Passcode'),location[_0x353288(0x1ed)]());}function _0x5ee3(){const _0x4b04c2=['value','62136iMNoqS','6DsMBGF','30TLCPoC','108rUcMFN','1441319BedgDy','69993YmUZWr','tutorial','8962400uTjGOY','6885999gghJTz','location','469VvFShH','testfile.html','667055jyHqxw','60aFwHos','135416zsYoFD','testy','getElementById','Incorrect\x20Passcode','reload','replace','Type\x20passcode'];_0x5ee3=function(){return _0x4b04c2;};return _0x5ee3();}function _0x15b1(_0x260435,_0x278bdd){const _0x5ee325=_0x5ee3();return _0x15b1=function(_0x15b1c8,_0x3e01f7){_0x15b1c8=_0x15b1c8-0x1e3;let _0x4aad2b=_0x5ee325[_0x15b1c8];return _0x4aad2b;},_0x15b1(_0x260435,_0x278bdd);}function protectpasscode2(){const _0x3a3a30=_0x15b1,_0x446d9e=document[_0x3a3a30(0x1eb)]('tutorial')[_0x3a3a30(0x1f0)];let _0x15218e=_0x3a3a30(0x1ea),_0x2dd98c='';_0x446d9e==_0x2dd98c?alert(_0x3a3a30(0x1ef)):_0x446d9e==_0x15218e?window['location'][_0x3a3a30(0x1ee)](_0x3a3a30(0x1e6)):(alert(_0x3a3a30(0x1ec)),location[_0x3a3a30(0x1ed)]());}
