@@ -21,4 +21,7 @@ body{
     font-weight: 600;
 }
 
+.upper {
+    text-transform: uppercase;
+}
 /* . means class, # means ID - I can't get classes to work? */
